@@ -1,0 +1,4 @@
+C:\Users\pashim\Documents\OneDrive - Microsoft\Projects\azure-iot-workshop\device-management-client\obj\Debug\device-management-client.njsprojResolveAssemblyReference.cache
+C:\Users\pashim\Documents\OneDrive - Microsoft\Projects\azure-iot-workshop\device-management-client\bin\Microsoft.NodejsTools.WebRole.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\azure-iot-workshop\device-management-client\obj\Debug\device-management-client.njsprojResolveAssemblyReference.cache
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\azure-iot-workshop\device-management-client\bin\Microsoft.NodejsTools.WebRole.dll

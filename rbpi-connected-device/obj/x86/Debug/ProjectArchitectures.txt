@@ -1,0 +1,1 @@
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\azure-iot-workshop\rbpi-connected-device\rbpi-connected-device.csproj;x86

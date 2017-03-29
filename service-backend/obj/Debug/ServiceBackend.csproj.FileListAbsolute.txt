@@ -1,0 +1,56 @@
+D:\Projects\Azure IoT Workshop\ServiceBackend\bin\Debug\ServiceBackend.exe.config
+D:\Projects\Azure IoT Workshop\ServiceBackend\bin\Debug\ServiceBackend.exe
+D:\Projects\Azure IoT Workshop\ServiceBackend\bin\Debug\ServiceBackend.pdb
+D:\Projects\Azure IoT Workshop\ServiceBackend\bin\Debug\Microsoft.Azure.Amqp.dll
+D:\Projects\Azure IoT Workshop\ServiceBackend\bin\Debug\Microsoft.Azure.Devices.dll
+D:\Projects\Azure IoT Workshop\ServiceBackend\bin\Debug\Microsoft.Azure.Devices.Shared.dll
+D:\Projects\Azure IoT Workshop\ServiceBackend\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\Azure IoT Workshop\ServiceBackend\bin\Debug\PCLCrypto.dll
+D:\Projects\Azure IoT Workshop\ServiceBackend\bin\Debug\PInvoke.BCrypt.dll
+D:\Projects\Azure IoT Workshop\ServiceBackend\bin\Debug\PInvoke.Kernel32.dll
+D:\Projects\Azure IoT Workshop\ServiceBackend\bin\Debug\PInvoke.NCrypt.dll
+D:\Projects\Azure IoT Workshop\ServiceBackend\bin\Debug\PInvoke.Windows.Core.dll
+D:\Projects\Azure IoT Workshop\ServiceBackend\bin\Debug\System.Net.Http.Formatting.dll
+D:\Projects\Azure IoT Workshop\ServiceBackend\bin\Debug\System.Web.Http.dll
+D:\Projects\Azure IoT Workshop\ServiceBackend\bin\Debug\Validation.dll
+D:\Projects\Azure IoT Workshop\ServiceBackend\bin\Debug\Microsoft.Azure.Amqp.xml
+D:\Projects\Azure IoT Workshop\ServiceBackend\bin\Debug\Microsoft.Azure.Devices.xml
+D:\Projects\Azure IoT Workshop\ServiceBackend\bin\Debug\Newtonsoft.Json.xml
+D:\Projects\Azure IoT Workshop\ServiceBackend\bin\Debug\PCLCrypto.xml
+D:\Projects\Azure IoT Workshop\ServiceBackend\bin\Debug\PInvoke.BCrypt.xml
+D:\Projects\Azure IoT Workshop\ServiceBackend\bin\Debug\PInvoke.Kernel32.xml
+D:\Projects\Azure IoT Workshop\ServiceBackend\bin\Debug\PInvoke.NCrypt.xml
+D:\Projects\Azure IoT Workshop\ServiceBackend\bin\Debug\PInvoke.Windows.Core.xml
+D:\Projects\Azure IoT Workshop\ServiceBackend\bin\Debug\System.Net.Http.Formatting.xml
+D:\Projects\Azure IoT Workshop\ServiceBackend\bin\Debug\System.Web.Http.xml
+D:\Projects\Azure IoT Workshop\ServiceBackend\bin\Debug\Validation.xml
+D:\Projects\Azure IoT Workshop\ServiceBackend\obj\Debug\ServiceBackend.exe
+D:\Projects\Azure IoT Workshop\ServiceBackend\obj\Debug\ServiceBackend.pdb
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\ServiceBackend\bin\Debug\ServiceBackend.exe.config
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\ServiceBackend\bin\Debug\ServiceBackend.exe
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\ServiceBackend\bin\Debug\ServiceBackend.pdb
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\ServiceBackend\bin\Debug\Microsoft.Azure.Amqp.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\ServiceBackend\bin\Debug\Microsoft.Azure.Devices.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\ServiceBackend\bin\Debug\Microsoft.Azure.Devices.Shared.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\ServiceBackend\bin\Debug\Newtonsoft.Json.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\ServiceBackend\bin\Debug\PCLCrypto.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\ServiceBackend\bin\Debug\PInvoke.BCrypt.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\ServiceBackend\bin\Debug\PInvoke.Kernel32.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\ServiceBackend\bin\Debug\PInvoke.NCrypt.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\ServiceBackend\bin\Debug\PInvoke.Windows.Core.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\ServiceBackend\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\ServiceBackend\bin\Debug\System.Web.Http.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\ServiceBackend\bin\Debug\Validation.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\ServiceBackend\bin\Debug\Microsoft.Azure.Amqp.xml
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\ServiceBackend\bin\Debug\Microsoft.Azure.Devices.xml
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\ServiceBackend\bin\Debug\Newtonsoft.Json.xml
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\ServiceBackend\bin\Debug\PCLCrypto.xml
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\ServiceBackend\bin\Debug\PInvoke.BCrypt.xml
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\ServiceBackend\bin\Debug\PInvoke.Kernel32.xml
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\ServiceBackend\bin\Debug\PInvoke.NCrypt.xml
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\ServiceBackend\bin\Debug\PInvoke.Windows.Core.xml
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\ServiceBackend\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\ServiceBackend\bin\Debug\System.Web.Http.xml
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\ServiceBackend\bin\Debug\Validation.xml
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\ServiceBackend\obj\Debug\ServiceBackend.exe
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\ServiceBackend\obj\Debug\ServiceBackend.pdb

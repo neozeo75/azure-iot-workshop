@@ -1,0 +1,187 @@
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\DeviceSimulator.exe.config
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\DeviceSimulator.exe
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\DeviceSimulator.pdb
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\DotNetty.Buffers.dll
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\DotNetty.Codecs.dll
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\DotNetty.Codecs.Mqtt.dll
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\DotNetty.Common.dll
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\DotNetty.Handlers.dll
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\DotNetty.Transport.dll
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\Microsoft.Azure.Amqp.dll
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\Microsoft.Azure.Devices.Client.dll
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\Microsoft.Azure.Devices.Shared.dll
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\Microsoft.Data.Edm.dll
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\Microsoft.Data.OData.dll
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\Microsoft.Data.Services.Client.dll
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.dll
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\PCLCrypto.dll
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\PInvoke.BCrypt.dll
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\PInvoke.Kernel32.dll
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\PInvoke.NCrypt.dll
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\PInvoke.Windows.Core.dll
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\System.Net.Http.Formatting.dll
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\System.Spatial.dll
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\Validation.dll
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\DotNetty.Buffers.xml
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\DotNetty.Codecs.xml
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\DotNetty.Codecs.Mqtt.xml
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\DotNetty.Common.xml
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\DotNetty.Handlers.xml
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\DotNetty.Transport.xml
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\Microsoft.Azure.Amqp.xml
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\Microsoft.Azure.KeyVault.Core.xml
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\Microsoft.Data.Edm.xml
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\Microsoft.Data.OData.xml
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\Microsoft.Data.Services.Client.xml
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.xml
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\Microsoft.WindowsAzure.Storage.pdb
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\Microsoft.WindowsAzure.Storage.xml
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\Newtonsoft.Json.xml
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\PCLCrypto.xml
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\PInvoke.BCrypt.xml
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\PInvoke.Kernel32.xml
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\PInvoke.NCrypt.xml
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\PInvoke.Windows.Core.xml
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\System.Net.Http.Formatting.xml
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\System.Spatial.xml
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\Validation.xml
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\de\Microsoft.Data.OData.resources.dll
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\es\Microsoft.Data.OData.resources.dll
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\it\Microsoft.Data.OData.resources.dll
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\de\Microsoft.Data.Services.Client.resources.dll
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\es\Microsoft.Data.Services.Client.resources.dll
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\fr\Microsoft.Data.Services.Client.resources.dll
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\it\Microsoft.Data.Services.Client.resources.dll
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\ja\Microsoft.Data.Services.Client.resources.dll
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\ko\Microsoft.Data.Services.Client.resources.dll
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\ru\Microsoft.Data.Services.Client.resources.dll
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\de\System.Spatial.resources.dll
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\es\System.Spatial.resources.dll
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\fr\System.Spatial.resources.dll
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\it\System.Spatial.resources.dll
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\ja\System.Spatial.resources.dll
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\ko\System.Spatial.resources.dll
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\ru\System.Spatial.resources.dll
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\zh-Hans\System.Spatial.resources.dll
+D:\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\zh-Hant\System.Spatial.resources.dll
+D:\Projects\Azure IoT Workshop\DeviceSimulator\obj\Debug\DeviceSimulator.csprojResolveAssemblyReference.cache
+D:\Projects\Azure IoT Workshop\DeviceSimulator\obj\Debug\DeviceSimulator.exe
+D:\Projects\Azure IoT Workshop\DeviceSimulator\obj\Debug\DeviceSimulator.pdb
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\DeviceSimulator.exe.config
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\DeviceSimulator.exe
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\DeviceSimulator.pdb
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\DotNetty.Buffers.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\DotNetty.Codecs.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\DotNetty.Codecs.Mqtt.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\DotNetty.Common.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\DotNetty.Handlers.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\DotNetty.Transport.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\Microsoft.Azure.Amqp.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\Microsoft.Azure.Devices.Client.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\Microsoft.Azure.Devices.Shared.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\Microsoft.Data.Edm.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\Microsoft.Data.OData.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\Microsoft.Data.Services.Client.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\Newtonsoft.Json.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\PCLCrypto.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\PInvoke.BCrypt.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\PInvoke.Kernel32.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\PInvoke.NCrypt.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\PInvoke.Windows.Core.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\System.Spatial.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\Validation.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\DotNetty.Buffers.xml
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\DotNetty.Codecs.xml
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\DotNetty.Codecs.Mqtt.xml
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\DotNetty.Common.xml
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\DotNetty.Handlers.xml
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\DotNetty.Transport.xml
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\Microsoft.Azure.Amqp.xml
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\Microsoft.Azure.KeyVault.Core.xml
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\Microsoft.Data.Edm.xml
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\Microsoft.Data.OData.xml
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\Microsoft.Data.Services.Client.xml
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.xml
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\Microsoft.WindowsAzure.Storage.xml
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\Newtonsoft.Json.xml
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\PCLCrypto.xml
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\PInvoke.BCrypt.xml
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\PInvoke.Kernel32.xml
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\PInvoke.NCrypt.xml
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\PInvoke.Windows.Core.xml
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\System.Spatial.xml
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\Validation.xml
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\de\Microsoft.Data.OData.resources.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\es\Microsoft.Data.OData.resources.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\it\Microsoft.Data.OData.resources.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\de\Microsoft.Data.Services.Client.resources.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\es\Microsoft.Data.Services.Client.resources.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\fr\Microsoft.Data.Services.Client.resources.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\it\Microsoft.Data.Services.Client.resources.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\ja\Microsoft.Data.Services.Client.resources.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\ko\Microsoft.Data.Services.Client.resources.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\ru\Microsoft.Data.Services.Client.resources.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\de\System.Spatial.resources.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\es\System.Spatial.resources.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\fr\System.Spatial.resources.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\it\System.Spatial.resources.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\ja\System.Spatial.resources.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\ko\System.Spatial.resources.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\ru\System.Spatial.resources.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\zh-Hans\System.Spatial.resources.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\bin\Debug\zh-Hant\System.Spatial.resources.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\obj\Debug\DeviceSimulator.csprojResolveAssemblyReference.cache
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\obj\Debug\DeviceSimulator.exe
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceSimulator\obj\Debug\DeviceSimulator.pdb
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\azure-iot-workshop\DeviceSimulator\bin\Debug\DeviceSimulator.exe
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\azure-iot-workshop\DeviceSimulator\bin\Debug\DotNetty.Codecs.Mqtt.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\azure-iot-workshop\DeviceSimulator\bin\Debug\Microsoft.Azure.Amqp.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\azure-iot-workshop\DeviceSimulator\bin\Debug\Microsoft.Azure.Devices.Client.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\azure-iot-workshop\DeviceSimulator\bin\Debug\Microsoft.Azure.Devices.Shared.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\azure-iot-workshop\DeviceSimulator\bin\Debug\Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\azure-iot-workshop\DeviceSimulator\bin\Debug\Newtonsoft.Json.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\azure-iot-workshop\DeviceSimulator\bin\Debug\PCLCrypto.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\azure-iot-workshop\DeviceSimulator\bin\Debug\Validation.dll

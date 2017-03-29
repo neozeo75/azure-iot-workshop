@@ -1,0 +1,89 @@
+D:\Projects\Azure IoT Workshop\DeviceAdministration\bin\Debug\DeviceAdministration.exe.config
+D:\Projects\Azure IoT Workshop\DeviceAdministration\bin\Debug\DeviceAdministration.exe
+D:\Projects\Azure IoT Workshop\DeviceAdministration\bin\Debug\DeviceAdministration.pdb
+D:\Projects\Azure IoT Workshop\DeviceAdministration\bin\Debug\Microsoft.Azure.Amqp.dll
+D:\Projects\Azure IoT Workshop\DeviceAdministration\bin\Debug\Microsoft.Azure.Devices.dll
+D:\Projects\Azure IoT Workshop\DeviceAdministration\bin\Debug\Microsoft.Azure.Devices.Shared.dll
+D:\Projects\Azure IoT Workshop\DeviceAdministration\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\Azure IoT Workshop\DeviceAdministration\bin\Debug\PCLCrypto.dll
+D:\Projects\Azure IoT Workshop\DeviceAdministration\bin\Debug\PInvoke.BCrypt.dll
+D:\Projects\Azure IoT Workshop\DeviceAdministration\bin\Debug\PInvoke.Kernel32.dll
+D:\Projects\Azure IoT Workshop\DeviceAdministration\bin\Debug\PInvoke.NCrypt.dll
+D:\Projects\Azure IoT Workshop\DeviceAdministration\bin\Debug\PInvoke.Windows.Core.dll
+D:\Projects\Azure IoT Workshop\DeviceAdministration\bin\Debug\System.Net.Http.Formatting.dll
+D:\Projects\Azure IoT Workshop\DeviceAdministration\bin\Debug\System.Web.Http.dll
+D:\Projects\Azure IoT Workshop\DeviceAdministration\bin\Debug\Validation.dll
+D:\Projects\Azure IoT Workshop\DeviceAdministration\bin\Debug\Microsoft.Azure.Amqp.xml
+D:\Projects\Azure IoT Workshop\DeviceAdministration\bin\Debug\Microsoft.Azure.Devices.xml
+D:\Projects\Azure IoT Workshop\DeviceAdministration\bin\Debug\Newtonsoft.Json.xml
+D:\Projects\Azure IoT Workshop\DeviceAdministration\bin\Debug\PCLCrypto.xml
+D:\Projects\Azure IoT Workshop\DeviceAdministration\bin\Debug\PInvoke.BCrypt.xml
+D:\Projects\Azure IoT Workshop\DeviceAdministration\bin\Debug\PInvoke.Kernel32.xml
+D:\Projects\Azure IoT Workshop\DeviceAdministration\bin\Debug\PInvoke.NCrypt.xml
+D:\Projects\Azure IoT Workshop\DeviceAdministration\bin\Debug\PInvoke.Windows.Core.xml
+D:\Projects\Azure IoT Workshop\DeviceAdministration\bin\Debug\System.Net.Http.Formatting.xml
+D:\Projects\Azure IoT Workshop\DeviceAdministration\bin\Debug\System.Web.Http.xml
+D:\Projects\Azure IoT Workshop\DeviceAdministration\bin\Debug\Validation.xml
+D:\Projects\Azure IoT Workshop\DeviceAdministration\obj\Debug\DeviceAdministration.exe
+D:\Projects\Azure IoT Workshop\DeviceAdministration\obj\Debug\DeviceAdministration.pdb
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceAdministration\bin\Debug\DeviceAdministration.exe.config
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceAdministration\bin\Debug\DeviceAdministration.exe
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceAdministration\bin\Debug\DeviceAdministration.pdb
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceAdministration\bin\Debug\Microsoft.Azure.Amqp.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceAdministration\bin\Debug\Microsoft.Azure.Devices.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceAdministration\bin\Debug\Microsoft.Azure.Devices.Shared.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceAdministration\bin\Debug\Newtonsoft.Json.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceAdministration\bin\Debug\PCLCrypto.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceAdministration\bin\Debug\PInvoke.BCrypt.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceAdministration\bin\Debug\PInvoke.Kernel32.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceAdministration\bin\Debug\PInvoke.NCrypt.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceAdministration\bin\Debug\PInvoke.Windows.Core.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceAdministration\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceAdministration\bin\Debug\System.Web.Http.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceAdministration\bin\Debug\Validation.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceAdministration\bin\Debug\Microsoft.Azure.Amqp.xml
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceAdministration\bin\Debug\Microsoft.Azure.Devices.xml
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceAdministration\bin\Debug\Newtonsoft.Json.xml
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceAdministration\bin\Debug\PCLCrypto.xml
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceAdministration\bin\Debug\PInvoke.BCrypt.xml
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceAdministration\bin\Debug\PInvoke.Kernel32.xml
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceAdministration\bin\Debug\PInvoke.NCrypt.xml
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceAdministration\bin\Debug\PInvoke.Windows.Core.xml
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceAdministration\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceAdministration\bin\Debug\System.Web.Http.xml
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceAdministration\bin\Debug\Validation.xml
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceAdministration\obj\Debug\IdentityManager.csprojResolveAssemblyReference.cache
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceAdministration\obj\Debug\DeviceAdministration.exe
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\DeviceAdministration\obj\Debug\DeviceAdministration.pdb
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\IdentityManager\bin\Debug\DeviceAdministration.exe.config
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\IdentityManager\bin\Debug\DeviceAdministration.exe
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\IdentityManager\bin\Debug\DeviceAdministration.pdb
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\IdentityManager\bin\Debug\Microsoft.Azure.Amqp.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\IdentityManager\bin\Debug\Microsoft.Azure.Devices.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\IdentityManager\bin\Debug\Microsoft.Azure.Devices.Shared.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\IdentityManager\bin\Debug\Newtonsoft.Json.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\IdentityManager\bin\Debug\PCLCrypto.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\IdentityManager\bin\Debug\PInvoke.BCrypt.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\IdentityManager\bin\Debug\PInvoke.Kernel32.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\IdentityManager\bin\Debug\PInvoke.NCrypt.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\IdentityManager\bin\Debug\PInvoke.Windows.Core.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\IdentityManager\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\IdentityManager\bin\Debug\System.Web.Http.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\IdentityManager\bin\Debug\Validation.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\IdentityManager\bin\Debug\Microsoft.Azure.Amqp.xml
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\IdentityManager\bin\Debug\Microsoft.Azure.Devices.xml
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\IdentityManager\bin\Debug\Newtonsoft.Json.xml
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\IdentityManager\bin\Debug\PCLCrypto.xml
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\IdentityManager\bin\Debug\PInvoke.BCrypt.xml
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\IdentityManager\bin\Debug\PInvoke.Kernel32.xml
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\IdentityManager\bin\Debug\PInvoke.NCrypt.xml
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\IdentityManager\bin\Debug\PInvoke.Windows.Core.xml
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\IdentityManager\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\IdentityManager\bin\Debug\System.Web.Http.xml
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\IdentityManager\bin\Debug\Validation.xml
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\IdentityManager\obj\Debug\IdentityManager.csprojResolveAssemblyReference.cache
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\IdentityManager\obj\Debug\DeviceAdministration.exe
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\Azure IoT Workshop\IdentityManager\obj\Debug\DeviceAdministration.pdb
+D:\Documents\Documents on Public Clouds\OneDrive - Microsoft\Projects\azure-iot-workshop\IdentityManager\bin\Debug\DeviceAdministration.exe.config
+D:\Documents\Documents on Public Clouds\OneDrive - Microsoft\Projects\azure-iot-workshop\IdentityManager\obj\Debug\DeviceAdministration.exe
+D:\Documents\Documents on Public Clouds\OneDrive - Microsoft\Projects\azure-iot-workshop\IdentityManager\obj\Debug\DeviceAdministration.pdb
