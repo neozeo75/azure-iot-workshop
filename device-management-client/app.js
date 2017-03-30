@@ -71,7 +71,9 @@ var connectCallback = function (err) {
             var windspeed = 0.5 + Math.random() * 45.5;
             var longitude = "37.575869";
             var latitude = "126.976859";
-            var data = JSON.stringify({ deviceId: deviceId, date: date, temperature: temperature, humidity: humidity, pressure: pressure });
+            var data = JSON.stringify({
+                deviceId: deviceId, date: date, temperature: temperature, humidity: humidity, pressure: pressure, windspeed: windspeed, longitude: longitude, latitude: latitude
+            });
             var message = new Message(data);
 
             message.properties.add('key', 'value');
