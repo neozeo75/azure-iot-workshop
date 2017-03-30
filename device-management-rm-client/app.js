@@ -62,14 +62,14 @@ var connectCallback = function (err) {
         });
 
         var sendInterval = setInterval(function () {
-
-            var deviceId = 'device-001';
+            var deviceId = 'device-005';
             var date = new Date().toISOString();
-
             var temperature = 15 + Math.random() * 35; // range: [10, 14]
             var humidity = 50 + Math.random() * 65;
             var pressure = 10 + Math.random() * 5;
-
+            var windspeed = 0.5 + Math.random() * 45.5;
+            var longitude = "37.575869";
+            var latitude = "126.976859";
             var data = JSON.stringify({ deviceId: deviceId, date: date, temperature: temperature, humidity: humidity, pressure: pressure });
             var message = new Message(data);
 
