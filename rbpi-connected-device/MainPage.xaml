@@ -8,8 +8,8 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Ellipse x:Name="LED_RED" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="100" Margin="107,71,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
-        <Ellipse x:Name="LED_GREEN" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="100" Margin="212,71,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
-        <Ellipse x:Name="LED_BLUE" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="100" Margin="317,71,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
+        <Ellipse x:Name="LED_RED" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="100" Margin="29,25,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
+        <Ellipse x:Name="LED_GREEN" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="100" Margin="154,25,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
+        <Ellipse x:Name="LED_BLUE" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="100" Margin="279,25,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
     </Grid>
 </Page>

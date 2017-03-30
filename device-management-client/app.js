@@ -5,6 +5,7 @@ var Client = require('azure-iot-device').Client;
 var Protocol = require('azure-iot-device-mqtt').Mqtt;
 var Message = require('azure-iot-device').Message;
 var connection_string = FileSystem.readFileSync('../device-management-client-connectionstring.xld', 'utf8').trim().toString();
+console.log("connection string: ", connection_string);
 var client = Client.fromConnectionString(connection_string, Protocol);
 
 var onReboot = function (request, response) {
