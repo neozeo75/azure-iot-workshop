@@ -154,7 +154,7 @@ namespace rbpi_connected_device
 
                 await deviceClient.SendEventAsync(new Message(Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(telemetry))));
 
-                await Task.Delay(5000);
+                await Task.Delay(1000);
 
             }
 

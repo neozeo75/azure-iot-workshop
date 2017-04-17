@@ -29,8 +29,8 @@ var reportedProperties = {
     "Device": {
         "DeviceState": "normal",
         "Location": {
-            "Latitude": 47.642877,
-            "Longitude": -122.125497
+            "Latitude": 37.575869,
+            "Longitude": 126.976859
         }
     },
     "Config": {
@@ -47,8 +47,8 @@ var reportedProperties = {
         "SerialNumber": "SER99"
     },
     "Location": {
-        "Latitude": 47.642877,
-        "Longitude": -122.125497
+        "Latitude": 37.575869,
+        "Longitude": 126.976859
     },
     "SupportedMethods": {
         "Reboot": "Reboot the device",
@@ -61,7 +61,7 @@ function onReboot(request, response) {
     console.log('Simulated reboot...');
 
     // Complete the response
-    response.send(200, "Rebooting device", function (err) {
+    response.send(200, "Rebooting device", function(err) {
         if (!!err) {
             console.error('An error ocurred when sending a method response:\n' + err.toString());
         } else {
@@ -74,7 +74,7 @@ function onInitiateFirmwareUpdate(request, response) {
     console.log('Simulated firmware update initiated, using: ' + request.payload.FwPackageURI);
 
     // Complete the response
-    response.send(200, "Firmware update initiated", function (err) {
+    response.send(200, "Firmware update initiated", function(err) {
         if (!!err) {
             console.error('An error ocurred when sending a method response:\n' + err.toString());
         } else {
@@ -84,7 +84,7 @@ function onInitiateFirmwareUpdate(request, response) {
 
     // Add logic here to perform the firmware update asynchronously
 }
-client.open(function (err) {
+client.open(function(err) {
     if (err) {
         printErrorFor('open')(err);
     } else {
@@ -92,19 +92,19 @@ client.open(function (err) {
         client.sendEvent(new Message(JSON.stringify(deviceMetaData)), printErrorFor('send metadata'));
 
         // Create device twin
-        client.getTwin(function (err, twin) {
+        client.getTwin(function(err, twin) {
             if (err) {
                 console.error('Could not get device twin');
             } else {
                 console.log('Device twin created');
 
-                twin.on('properties.desired', function (delta) {
+                twin.on('properties.desired', function(delta) {
                     console.log('Received new desired properties:');
                     console.log(JSON.stringify(delta));
                 });
 
                 // Send reported properties
-                twin.properties.reported.update(reportedProperties, function (err) {
+                twin.properties.reported.update(reportedProperties, function(err) {
                     if (err) throw err;
                     console.log('twin state reported');
                 });
@@ -116,7 +116,7 @@ client.open(function (err) {
         });
 
         // Start sending telemetry
-        var sendInterval = setInterval(function () {
+        var sendInterval = setInterval(function() {
             var date = new Date().toISOString();
             var temperature = 15 + Math.random() * 35; // range: [10, 14]
             var humidity = 50 + Math.random() * 65;
@@ -125,13 +125,20 @@ client.open(function (err) {
             var longitude = "37.575869";
             var latitude = "126.976859";
             var data = JSON.stringify({
-                deviceId: deviceId, date: date, temperature: temperature, humidity: humidity, pressure: pressure, windspeed: windspeed, longitude: longitude, latitude: latitude
+                deviceId: deviceId,
+                date: date,
+                temperature: temperature,
+                humidity: humidity,
+                pressure: pressure,
+                windspeed: windspeed,
+                longitude: longitude,
+                latitude: latitude
             });
             console.log('Sending device event data:\n' + data);
             client.sendEvent(new Message(data), printErrorFor('send event'));
         }, 1000);
 
-        client.on('error', function (err) {
+        client.on('error', function(err) {
             printErrorFor('client')(err);
             if (sendInterval) clearInterval(sendInterval);
             client.close(printErrorFor('client.close'));

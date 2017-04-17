@@ -77,6 +77,7 @@ namespace CustomEventProcessor
         }
     }
 
+
     class CustomEventProcessor : IEventProcessor
     {
         Stopwatch checkpointStopWatch;
@@ -104,7 +105,8 @@ namespace CustomEventProcessor
             {
                 var data = Encoding.UTF8.GetString(eventData.GetBytes());
                 Console.WriteLine(string.Format("Message received.  Partition: '{0}', Data: '{1}'", context.Lease.PartitionId, data));
-                var content = JsonConvert.DeserializeObject<SensorData>(data);
+                SensorData content = JsonConvert.DeserializeObject<SensorData>(data);
+                
                 await Post("https://api.powerbi.com/beta/72f988bf-86f1-41af-91ab-2d7cd011db47/datasets/7b794932-3ae5-4715-9e65-833f10161e9b/rows?key=ZggTh8tf9JrpX9AAWOEmXsttvQhjXT5QTsgHONqauWowvtSh6%2BNu2V6vHivMXVohaX8VsIZjMzA48keCcI0jvA%3D%3D", content.ToString());
             }
 
