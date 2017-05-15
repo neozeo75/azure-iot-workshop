@@ -52,6 +52,7 @@ var reportedProperties = {
     },
     "SupportedMethods": {
         "Reboot": "Reboot the device",
+        "Reset" : "Reset the device",
         "InitiateFirmwareUpdate--FwPackageURI-string": "Updates device Firmware. Use parameter FwPackageURI to specifiy the URI of the firmware file"
     },
 }
@@ -69,6 +70,12 @@ function onReboot(request, response) {
         }
     });
 }
+
+
+function onReset(request, response) {
+    console.log('Simulator has been reset');
+
+   }
 
 function onInitiateFirmwareUpdate(request, response) {
     console.log('Simulated firmware update initiated, using: ' + request.payload.FwPackageURI);
@@ -112,6 +119,7 @@ client.open(function(err) {
                 // Register handlers for direct methods
                 client.onDeviceMethod('Reboot', onReboot);
                 client.onDeviceMethod('InitiateFirmwareUpdate', onInitiateFirmwareUpdate);
+                client.onDeviceMethod('Reset', onReset);
             }
         });
 
