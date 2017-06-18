@@ -63,7 +63,7 @@ function onReboot(request, response) {
 
     // Complete the response
     response.send(200, "Rebooting device", function(err) {
-        if (!!err) {
+        if (!err) {
             console.error('An error ocurred when sending a method response:\n' + err.toString());
         } else {
             console.log('Response to method \'' + request.methodName + '\' sent successfully.');
@@ -82,7 +82,7 @@ function onInitiateFirmwareUpdate(request, response) {
 
     // Complete the response
     response.send(200, "Firmware update initiated", function(err) {
-        if (!!err) {
+        if (!err) {
             console.error('An error ocurred when sending a method response:\n' + err.toString());
         } else {
             console.log('Response to method \'' + request.methodName + '\' sent successfully.');

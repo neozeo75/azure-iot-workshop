@@ -5,12 +5,37 @@
     xmlns:local="using:rbpi_connected_device"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d">
+    mc:Ignorable="d" Height="420.275" Width="725.872">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Ellipse x:ConnectionId='1' x:Name="LED_RED" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="100" Margin="29,25,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
-        <Ellipse x:ConnectionId='2' x:Name="LED_GREEN" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="100" Margin="154,25,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
-        <Ellipse x:ConnectionId='3' x:Name="LED_BLUE" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="100" Margin="279,25,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" RenderTransformOrigin="0.719,0.729" Margin="0,0,0,10.333" HorizontalAlignment="Left" Width="726">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="85*"/>
+            <RowDefinition Height="102*"/>
+            <RowDefinition Height="93*"/>
+            <RowDefinition Height="97*"/>
+            <RowDefinition Height="33*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="217*"/>
+            <ColumnDefinition Width="44*"/>
+            <ColumnDefinition Width="119*"/>
+            <ColumnDefinition Width="161*"/>
+            <ColumnDefinition Width="185*"/>
+        </Grid.ColumnDefinitions>
+        <Ellipse x:ConnectionId='1' x:Name="LED_RED" Fill="#FFF4F4F5" Margin="10,10,0,11" Stroke="Black" Grid.Row="3" HorizontalAlignment="Left" Width="76"/>
+        <Ellipse x:ConnectionId='2' x:Name="LED_GREEN" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="76" Margin="91,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="74" Grid.Row="3"/>
+        <Ellipse x:ConnectionId='3' x:Name="LED_BLUE" Fill="#FFF4F4F5" Height="76" Margin="170,10,16,0" Stroke="Black" VerticalAlignment="Top" Grid.Row="3" Grid.ColumnSpan="2"/>
+        <TextBlock x:ConnectionId='4' x:Name="TxtTelemetries" Height="82" Margin="10,10,10,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Grid.Row="1" Grid.ColumnSpan="4" FontSize="8"/>
+        <TextBlock x:ConnectionId='5' x:Name="TxtCommands" Margin="10" TextWrapping="Wrap" Text="TextBlock" Grid.Row="2" Grid.ColumnSpan="4"/>
+        <Button x:ConnectionId='6' x:Name="BtnConnect" Content="Connect" HorizontalAlignment="Left" Margin="33,10,0,0" VerticalAlignment="Top" Width="142" Grid.Column="4" Height="32"                              />
+        <TextBox x:ConnectionId='7' x:Name="TxtDeviceId" HorizontalAlignment="Left" Margin="77,10,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="140" Height="32"/>
+        <TextBlock HorizontalAlignment="Left" Height="32" Margin="13,14,0,0" TextWrapping="Wrap" Text="ID:" VerticalAlignment="Top" Width="27"/>
+        <TextBlock x:ConnectionId='8' x:Name="TxtTelemetries_Copy" Height="82" Margin="34,10,10,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Grid.Row="1" Grid.Column="4"/>
+        <Button x:ConnectionId='9' x:Name="BtnSend" Content="Send" HorizontalAlignment="Left" Margin="33,47,0,0" VerticalAlignment="Top" Width="142" Grid.Column="4" Height="32"                      />
+        <TextBox x:ConnectionId='10' x:Name="TxtInterval" HorizontalAlignment="Left" Margin="77,47,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="140" Height="32"/>
+        <TextBlock HorizontalAlignment="Left" Height="32" Margin="10,46,0,0" TextWrapping="Wrap" Text="INTV:" VerticalAlignment="Top" Width="62"/>
+        <TextBlock HorizontalAlignment="Left" Height="32" Margin="10,12,0,0" TextWrapping="Wrap" Text="Device Key:" VerticalAlignment="Top" Width="95" Grid.Column="1" Grid.ColumnSpan="2"/>
+        <TextBox x:ConnectionId='11' x:Name="TxtDeviceKey" HorizontalAlignment="Left" Margin="61,10,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="247" Height="32" Grid.ColumnSpan="3" Grid.Column="2"/>
     </Grid>
 </Page>
 

@@ -207,7 +207,7 @@ namespace DeviceSimulator
 
                 date = DateTime.Now.ToString("o"),
 
-                temperature = rnd.NextDouble() * (38.5 - 22.5) + 22.5,
+                temperature = rnd.NextDouble() * (80.5 - 55.5) + 55.5,
 
                 humidity = rnd.NextDouble() * (120.5 - 45.5) + 45.5,
             };
