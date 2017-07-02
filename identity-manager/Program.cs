@@ -95,7 +95,9 @@ namespace IdentityManager
                             {
                                 try
                                 {
-                                    await TwinAsync($"SELECT * FROM devices");
+                                    Console.Write("Enter Twin Query: ");
+                                    var condition = Console.ReadLine();
+                                    await TwinAsync(condition);
                                 }
                                 catch (Exception e)
                                 {
@@ -199,9 +201,9 @@ namespace IdentityManager
             }
         }
 
-        public async Task TwinAsync(string twinQuery)
+        public async Task TwinAsync(string twinQueryWithCondition)
         {
-            var query = registryManager.CreateQuery(twinQuery, 1000);
+            var query = registryManager.CreateQuery(twinQueryWithCondition, 1000);
             while (query.HasMoreResults)
             {
                 var page = await query.GetNextAsTwinAsync();

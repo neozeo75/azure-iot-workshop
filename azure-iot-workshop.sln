@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26228.9
+VisualStudioVersion = 15.0.26430.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "identity-manager", "identity-manager\identity-manager.csproj", "{397EF39B-6DD5-4AA6-B6B4-AD57A5B56F7B}"
 EndProject
@@ -20,6 +20,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "custom-event-processor-weather", "custom-event-processor-weather\custom-event-processor-weather.csproj", "{4968EAAC-11DF-4FC6-BD50-E9E9F38C2021}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "device-simulator-weather", "device-simulator-weather\device-simulator-weather.csproj", "{10EE3B22-5B30-413E-BDC0-F6E63F20C89C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "device-management-cs-client", "device-management-cs-client\device-management-cs-client.csproj", "{4250F6AF-11E5-494D-A293-DD516D82435C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "service-backend-device-management", "service-backend-device-management\service-backend-device-management.csproj", "{FBCD6911-CBEA-4FE1-8745-20DD80EBBDD5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -183,6 +187,38 @@ Global
 		{10EE3B22-5B30-413E-BDC0-F6E63F20C89C}.Release|x64.Build.0 = Release|Any CPU
 		{10EE3B22-5B30-413E-BDC0-F6E63F20C89C}.Release|x86.ActiveCfg = Release|Any CPU
 		{10EE3B22-5B30-413E-BDC0-F6E63F20C89C}.Release|x86.Build.0 = Release|Any CPU
+		{4250F6AF-11E5-494D-A293-DD516D82435C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4250F6AF-11E5-494D-A293-DD516D82435C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4250F6AF-11E5-494D-A293-DD516D82435C}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{4250F6AF-11E5-494D-A293-DD516D82435C}.Debug|ARM.Build.0 = Debug|Any CPU
+		{4250F6AF-11E5-494D-A293-DD516D82435C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{4250F6AF-11E5-494D-A293-DD516D82435C}.Debug|x64.Build.0 = Debug|Any CPU
+		{4250F6AF-11E5-494D-A293-DD516D82435C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4250F6AF-11E5-494D-A293-DD516D82435C}.Debug|x86.Build.0 = Debug|Any CPU
+		{4250F6AF-11E5-494D-A293-DD516D82435C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4250F6AF-11E5-494D-A293-DD516D82435C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4250F6AF-11E5-494D-A293-DD516D82435C}.Release|ARM.ActiveCfg = Release|Any CPU
+		{4250F6AF-11E5-494D-A293-DD516D82435C}.Release|ARM.Build.0 = Release|Any CPU
+		{4250F6AF-11E5-494D-A293-DD516D82435C}.Release|x64.ActiveCfg = Release|Any CPU
+		{4250F6AF-11E5-494D-A293-DD516D82435C}.Release|x64.Build.0 = Release|Any CPU
+		{4250F6AF-11E5-494D-A293-DD516D82435C}.Release|x86.ActiveCfg = Release|Any CPU
+		{4250F6AF-11E5-494D-A293-DD516D82435C}.Release|x86.Build.0 = Release|Any CPU
+		{FBCD6911-CBEA-4FE1-8745-20DD80EBBDD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBCD6911-CBEA-4FE1-8745-20DD80EBBDD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBCD6911-CBEA-4FE1-8745-20DD80EBBDD5}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{FBCD6911-CBEA-4FE1-8745-20DD80EBBDD5}.Debug|ARM.Build.0 = Debug|Any CPU
+		{FBCD6911-CBEA-4FE1-8745-20DD80EBBDD5}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{FBCD6911-CBEA-4FE1-8745-20DD80EBBDD5}.Debug|x64.Build.0 = Debug|Any CPU
+		{FBCD6911-CBEA-4FE1-8745-20DD80EBBDD5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FBCD6911-CBEA-4FE1-8745-20DD80EBBDD5}.Debug|x86.Build.0 = Debug|Any CPU
+		{FBCD6911-CBEA-4FE1-8745-20DD80EBBDD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBCD6911-CBEA-4FE1-8745-20DD80EBBDD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBCD6911-CBEA-4FE1-8745-20DD80EBBDD5}.Release|ARM.ActiveCfg = Release|Any CPU
+		{FBCD6911-CBEA-4FE1-8745-20DD80EBBDD5}.Release|ARM.Build.0 = Release|Any CPU
+		{FBCD6911-CBEA-4FE1-8745-20DD80EBBDD5}.Release|x64.ActiveCfg = Release|Any CPU
+		{FBCD6911-CBEA-4FE1-8745-20DD80EBBDD5}.Release|x64.Build.0 = Release|Any CPU
+		{FBCD6911-CBEA-4FE1-8745-20DD80EBBDD5}.Release|x86.ActiveCfg = Release|Any CPU
+		{FBCD6911-CBEA-4FE1-8745-20DD80EBBDD5}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
