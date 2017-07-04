@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Microsoft.Azure.Devices;
 using Microsoft.Azure.Devices.Client;
 using Newtonsoft.Json;
 using System.Threading;
@@ -12,127 +9,86 @@ using System.Diagnostics;
 
 namespace device_management_cs_client
 {
+    
     class Program
     {
+        static int TELEMETRY_FREQUENCY = 1000;
+        static private Timer timer;
         private static DeviceClient deviceClient;
-        private const string deviceId = "device-mgmt-01";
-        static Timer timer = new Timer(new TimerCallback(SendTelemetryData));
+        private const string deviceId = "rm-device-01";
+        private const string DEVICE_CONNECTION_STRING = "HostName=azure-iot-rm-demob13eb.azure-devices.net;DeviceId=rm-device-01;SharedAccessKey=BSPYuktrVo5HxOphchS6q8j9U+8+Rolii3iIyZx6oyw=";
+        static private Random rnd = new Random();
+        static private Twin deviceTwin;
+        static private double temperatureMeanValue = 55;
+        static private int telemetryInterval = 1000;
         static void Main(string[] args)
         {
-            deviceClient = DeviceClient.CreateFromConnectionString("HostName=azureiotworkshophub.azure-devices.net;DeviceId=device-mgmt-01;SharedAccessKey=uSrP2XscJPQQ9zeBjw3KUATU4G6cxb8SD+FH5FRV65s=",TransportType.Mqtt);
-            deviceClient.OpenAsync();
-
-            GetDeviceTwin();
-
-            deviceClient.SetConnectionStatusChangesHandler(OnDeviceConnectionStatusChanged);
-            deviceClient.SetDesiredPropertyUpdateCallbackAsync(OnDesiredPropoertyChanged, null);
-            
-            deviceClient.SetMethodHandlerAsync("OnDeviceReboot", OnDeviceReboot, null);
-            deviceClient.SetMethodHandlerAsync("OnFactoryReset", OnFactoryReset, null);
-            deviceClient.SetMethodHandlerAsync("OnDeviceControll", OnDeviceControll, null);
-
+            timer = new Timer(new TimerCallback(SendTelemetryData));
+            OpenConnectionAsync();
+            InitializeEventHandlers();
+            UpdateReportedProperties(DefaultReportedProperties()).Wait();
+            RetreiveDeviceTwinAsync().Wait();
             Console.ReadKey();
         }
-        static async void GetDeviceTwin()
+        static async Task UpdateReportedProperties(TwinCollection reportedConfig)
         {
-            var x = await deviceClient.GetTwinAsync();
-            var frequency = x.Properties.Desired["Frequency"];
-            var battery = x.Properties.Desired["Battery"];
-            Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.WriteLine($"Desired Telemetry Frequency: {frequency}");
-            Console.WriteLine($"Desired Battery Level: {battery}");
-            Console.ResetColor();
-            Console.WriteLine($"twin: {x.ToJson()}");
-        }
-
-        static void UpdateTimerFrequency(int millisecond)
-        {
-            timer.Change(0, millisecond);
-            Console.WriteLine($"telemetry timer frequency has been set to {millisecond}ms... ");
-        }
-        static async Task OnDesiredPropoertyChanged(TwinCollection desiredProperties, object userContext)
-        {
-            Console.WriteLine("device property has changed.");
-            Console.WriteLine(JsonConvert.SerializeObject(desiredProperties));
-            Console.WriteLine("Sending current time as reported property...");
-
-            var batteryValue = desiredProperties["Battery"];
-            int frequencyValue = desiredProperties["Frequency"];
-
-            Console.WriteLine($"Battery Value: {batteryValue}");
-            Console.WriteLine($"Frequency Value: {frequencyValue}");
             try
             {
-
-                UpdateTimerFrequency(frequencyValue);
+                await deviceClient.UpdateReportedPropertiesAsync(reportedConfig);
+                Twin updatedtwin = await deviceClient.GetTwinAsync();
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.WriteLine($"Updated Twin: {updatedtwin.ToJson(Formatting.Indented)}");
+                Console.ResetColor();
+            }
+            catch(Exception ex)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Debug.WriteLine($"An error occurred while updateing reported configuration from the twin: {ex.Message}");
+                Debug.WriteLine($"{ex.InnerException}");
+                Console.ResetColor();
+            }
+        }
+        static TwinCollection RetreiveReportedProperties()
+        {
+            TwinCollection reportedConfig = new TwinCollection();
+            try
+            {
+                reportedConfig = deviceTwin.Properties.Reported["Reported"];
+                temperatureMeanValue = reportedConfig["TemperatureMeanValue"];
+                telemetryInterval = reportedConfig["TelemetryInterval"];
+                Console.WriteLine($"Reported Property: {reportedConfig.ToJson(Formatting.Indented)}");
             }
             catch (Exception ex)
             {
-                Debug.WriteLine($"{ex.Message}");
+                Console.ForegroundColor = ConsoleColor.Red;
+                Debug.WriteLine($"An error occurred while getting reported configuration from the twin: {ex.Message}");
+                Debug.WriteLine($"{ex.InnerException}");
+                Console.ResetColor();
             }
-            TwinCollection reportedProperties = new TwinCollection();
-            reportedProperties["DesiredPropertyChangeReceived"] = DateTime.Now.ToString("o");
-            reportedProperties["Frequency"] = frequencyValue;
-            reportedProperties["Battery"] = batteryValue;
-            
-            await deviceClient.UpdateReportedPropertiesAsync(reportedProperties);
+            return reportedConfig;
         }
 
-
-        static Task<MethodResponse> OnDeviceReboot(MethodRequest request, object context)
+        static void InitializeEventHandlers()
         {
-            var data = request.DataAsJson;
-            Console.WriteLine("Device Reboot Method Called...");
-            Console.WriteLine(data);
-            MethodResponse response = new MethodResponse(new byte[0], 500);
-            return Task.FromResult(response);
+            deviceClient.SetConnectionStatusChangesHandler(OnDeviceConnectionStatusChanged);
+            deviceClient.SetDesiredPropertyUpdateCallbackAsync(OnDesiredPropertyChanged, null);
+            deviceClient.SetMethodHandlerAsync("Reboot", OnDeviceReboot, null);
+            deviceClient.SetMethodHandlerAsync("FactoryReset", OnFactoryReset, null);
+            deviceClient.SetMethodHandlerAsync("FirmwareUpdate", OnFirmwareUpdate, null);
         }
-        static Task<MethodResponse> OnFactoryReset(MethodRequest request, object context)
+        static async void OpenConnectionAsync()
         {
-            var data = request.DataAsJson;
-            Console.WriteLine("Factory Reset Method Called...");
-            Console.WriteLine(data);
-            MethodResponse response = new MethodResponse(new byte[0], 500);
-            return Task.FromResult(response);
-        }
-        static Task<MethodResponse> OnDeviceControll(MethodRequest request, object context)
-        {
-            var data = request.DataAsJson;
-            Console.WriteLine("Device Controll Method Called...");
-            Console.WriteLine(data);
-            MethodResponse response = new MethodResponse(new byte[0], 500);
-            return Task.FromResult(response);
-        }
-
-        static async void  OnDeviceConnectionStatusChanged(ConnectionStatus status, ConnectionStatusChangeReason reason)
-        {
-            Console.WriteLine();
-            Console.WriteLine("Connection Status Changed to {0}", status);
-            Console.WriteLine("Connection Status Changed Reason is {0}", reason);
-            Console.WriteLine();
-
-            if (status == ConnectionStatus.Connected)
-            {
-                Twin twin = await deviceClient.GetTwinAsync();
-                int frequency = twin.Properties.Desired["Frequency"];
-                Console.WriteLine($"intial timer frequency from twin: {frequency}ms");
-                UpdateTimerFrequency(frequency);
-            }
-        }
-
-
-        static void SendTelemetryData(object state)
-        {
-            var data = SensorData();
-            var message = new Message(Encoding.UTF8.GetBytes(data));
             try
             {
-                deviceClient.SendEventAsync(message).Wait();
-                Console.WriteLine($"sent ({data.Length} bytes): {data}");
+                deviceClient = DeviceClient.CreateFromConnectionString(DEVICE_CONNECTION_STRING, TransportType.Mqtt);
+                await deviceClient.OpenAsync();
             }
-            catch
+            catch (Exception ex)
             {
-                Console.WriteLine("Failed sending a message to Azure IoT Hub...");
+                Console.ForegroundColor = ConsoleColor.Red;
+                Debug.WriteLine($"An error occurred while connecting to Azure IoT Hub: {ex.Message}");
+                Debug.WriteLine($"{ex.InnerException}");
+                Console.ResetColor();
             }
         }
 
@@ -140,16 +96,253 @@ namespace device_management_cs_client
         {
             await deviceClient.CloseAsync();
         }
-        static private Random rnd = new Random();
+
+        static async Task RetreiveDeviceTwinAsync()
+        {
+            try
+            {
+                deviceTwin = await deviceClient.GetTwinAsync();
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine($"device twin: {deviceTwin.ToJson(Formatting.Indented)}");
+                Console.ResetColor();
+            }
+            catch (Exception ex)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine($"An error occurred while retreiving device twin from Azure IoT Hub...");
+                Debug.WriteLine($"error: {ex.Message}");
+            }
+        }
+
+        static void UpdateTimerFrequency(int millisecond)
+        {
+            timer.Change(0, millisecond);
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine($"Telemetry timer frequency has been set to {millisecond}ms... ");
+            Console.ResetColor();
+        }
+
+        
+        static async Task OnDesiredPropertyChanged(TwinCollection desiredProperties, object userContext)
+        {
+            var desiredConfig = desiredProperties["Config"];
+
+            temperatureMeanValue = desiredConfig["TemperatureMeanValue"];
+            telemetryInterval = desiredConfig["TelemetryInterval"];
+
+            UpdateTimerFrequency(telemetryInterval);
+
+            TwinCollection reportedConfig = RetreiveReportedProperties();
+            TwinCollection updatedConfig = new TwinCollection();
+
+            updatedConfig["TemperatureMeanValue"] = temperatureMeanValue;
+            updatedConfig["TelemetryInterval"] = telemetryInterval;
+
+            reportedConfig["Config"] = updatedConfig;
+
+            await UpdateReportedProperties(reportedConfig);
+
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.WriteLine("Device's desired property has changed at the service backend.");
+            Console.WriteLine(JsonConvert.SerializeObject(desiredProperties));
+            Console.ResetColor();
+            //var currentTwinConfig = GetTwinConfig();
+            //UpdateTwinConfig(currentTwinConfig).Wait();
+           // await deviceClient.UpdateReportedPropertiesAsync(desiredProperties);
+        }
+
+        static Task<MethodResponse> OnDeviceReboot(MethodRequest request, object context)
+        {
+            var data = request.DataAsJson;
+
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("Device Reboot Method Called...");
+            Console.WriteLine("Rebooting...");
+            Console.WriteLine(data);
+            Console.ResetColor();
+
+            MethodResponse response = new MethodResponse(new byte[0], 500);
+            return Task.FromResult(response);
+        }
+
+        static Task<MethodResponse> OnFactoryReset(MethodRequest request, object context)
+        {
+            var data = request.DataAsJson;
+
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("Factory Reset Method Called...");
+            Console.WriteLine("Rebooting...");
+            Console.WriteLine(data);
+            Console.ResetColor();
+
+            MethodResponse response = new MethodResponse(new byte[0], 500);
+            return Task.FromResult(response);
+        }
+
+        static Task<MethodResponse> OnFirmwareUpdate(MethodRequest request, object context)
+        {
+            var data = request.DataAsJson;
+
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("Firmware Update Method Called...");
+            Console.WriteLine("Rebooting...");
+            Console.WriteLine(data);
+            Console.ResetColor();
+            MethodResponse response = new MethodResponse(new byte[0], 500);
+            return Task.FromResult(response);
+        }
+
+        static void OnDeviceConnectionStatusChanged(ConnectionStatus status, ConnectionStatusChangeReason reason)
+        {
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("Connection Status Changed to {0}", status);
+            Console.WriteLine("Connection Status Changed Reason is {0}", reason);
+            Console.ResetColor();
+
+            if (status == ConnectionStatus.Connected)
+            {
+                UpdateTimerFrequency(TELEMETRY_FREQUENCY);
+            }
+        }
+
+        static void SendData(string data)
+        {
+            var message = new Message(Encoding.UTF8.GetBytes(data));
+
+            try
+            {
+                deviceClient.SendEventAsync(message).Wait();
+                Console.WriteLine($"sent ({data.Length} bytes): {data}");
+            }
+            catch (Exception ex)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("Failed sending a message to Azure IoT Hub...");
+                Console.WriteLine($"Message: {ex.Message}");
+                Debug.WriteLine($"Message: {ex.InnerException.Message}");
+                Console.ResetColor();
+            }
+        }
+        static void SendTelemetryData(object state)
+        {
+            var data = SensorData();
+            SendData(data);
+        }
+
         static string SensorData()
         {
             return JsonConvert.SerializeObject(new
             {
-                deviceId = deviceId,
-                date = DateTime.Now.ToString("o"),
-                temperature = 15 * rnd.NextDouble() + 15,
-                humidity = 15 * rnd.NextDouble() + 15
+                DeviceID = deviceId,
+                DateTime = DateTime.Now.ToString("o"),
+                Temperature = 15 * rnd.NextDouble() + 15,
+                Humidity = 15 * rnd.NextDouble() + 15
             });
         }
+        static string DeviceInformation()
+        {
+            var devicemetadata = new
+            {
+                ObjectType = "DeviceInfo",
+                IsSimulatedDevice = 0,
+                Version = "1.0",
+                DeviceProperties = new
+                {
+                    HubEnabledState = 1,
+                    DeviceID = deviceId
+                },
+            };
+            return JsonConvert.SerializeObject(devicemetadata);
+        }
+        static TwinCollection DefaultReportedProperties()
+        {
+
+            TwinCollection reportedproperties = new TwinCollection();
+
+            reportedproperties["Device"] = new
+            {
+                DeviceState = "Normal",
+                Location = new
+                {
+                    Latitude = 37.575869,
+                    Longitude = 126.976859
+                }
+            };
+
+            reportedproperties["Config"] = new
+            {
+                TemperatureMeanValue = temperatureMeanValue,
+                TelemetryInterval = telemetryInterval
+            };
+
+            reportedproperties["System"] = new
+            {
+                Manufacturer = "Microsoft",
+                FirmwareVersion = "2.22",
+                InstalledRAM = "8 MB",
+                ModelNumber = "DB-14",
+                Platform = "Plat 9.75",
+                Processor = "i3-9",
+                SerialNumber = "SER99"
+            };
+
+            reportedproperties["Location"] = new
+            {
+                Latitude = 37.575869,
+                Longitude = 126.976859
+            };
+
+            reportedproperties["SupportedMethods"] = new
+            {
+                Reboot = "Reboot the device",
+                Reset = "Reset the device",
+                InitiateFirmwareUpdate = "Updates device Firmware. Use parameter FwPackageURI to specifiy the URI of the firmware file"
+            };
+
+            return reportedproperties;
+
+        }
+        /*
+        static dynamic ReportedProperties()
+        {
+            return new
+            {
+                Device = new
+                {
+                    DeviceState = "Normal",
+                    Location = new
+                    {
+                        Latitude = 37.575869,
+                        Longitude = 126.976859
+                    }
+                },
+                Config = new
+                {
+                    TemperatureMeanValue = 56.7,
+                    TelemetryInterval = 45
+                },
+                System = new
+                {
+                    Manufacturer = "Contoso Inc.",
+                    FirmwareVersion = "2.22",
+                    InstalledRAM = "8 MB",
+                    ModelNumber = "DB-14",
+                    Platform = "Plat 9.75",
+                    Processor = "i3-9",
+                    SerialNumber = "SER99"
+                },
+                Location = new
+                {
+                    Latitude = 37.575869,
+                    Longitude = 126.976859
+                },
+                SupportedMethods = new
+                {
+                    Reboot = "Reboot the device",
+                    Reset = "Reset the device",
+                }
+            }; 
+        }
+        */
     }
 }

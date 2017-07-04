@@ -52,8 +52,8 @@ var reportedProperties = {
     },
     "SupportedMethods": {
         "Reboot": "Reboot the device",
-        "Reset" : "Reset the device",
-        "InitiateFirmwareUpdate--FwPackageURI-string": "Updates device Firmware. Use parameter FwPackageURI to specifiy the URI of the firmware file"
+        "FactoryReset": "Reset the device",
+        "FirmwareUpdate--FwPackageURI-string": "Updates device Firmware. Use parameter FwPackageURI to specifiy the URI of the firmware file"
     },
 }
 
@@ -118,8 +118,8 @@ client.open(function(err) {
 
                 // Register handlers for direct methods
                 client.onDeviceMethod('Reboot', onReboot);
-                client.onDeviceMethod('InitiateFirmwareUpdate', onInitiateFirmwareUpdate);
-                client.onDeviceMethod('Reset', onReset);
+                client.onDeviceMethod('FirmwareUpdate--FwPackageURI-string', onInitiateFirmwareUpdate);
+                client.onDeviceMethod('FactoryReset', onReset);
             }
         });
 
