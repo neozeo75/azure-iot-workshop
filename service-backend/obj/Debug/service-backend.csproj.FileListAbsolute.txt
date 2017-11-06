@@ -85,3 +85,4 @@ C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\azure-iot-worksho
 C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\azure-iot-workshop\service-backend\obj\Debug\service-backend.csprojResolveAssemblyReference.cache
 C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\azure-iot-workshop\service-backend\obj\Debug\ServiceBackend.exe
 C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\azure-iot-workshop\service-backend\obj\Debug\ServiceBackend.pdb
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\azure-iot-workshop\service-backend\obj\Debug\service-backend.csproj.CoreCompileInputs.cache

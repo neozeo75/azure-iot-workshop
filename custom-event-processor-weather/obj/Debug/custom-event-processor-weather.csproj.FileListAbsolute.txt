@@ -59,3 +59,4 @@ C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\azure-iot-worksho
 C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\azure-iot-workshop\custom-event-processor-weather\obj\Debug\custom-event-processor-weather.csprojResolveAssemblyReference.cache
 C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\azure-iot-workshop\custom-event-processor-weather\obj\Debug\custom-event-processor-weather.exe
 C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\azure-iot-workshop\custom-event-processor-weather\obj\Debug\custom-event-processor-weather.pdb
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\azure-iot-workshop\custom-event-processor-weather\obj\Debug\custom-event-processor-weather.csproj.CoreCompileInputs.cache

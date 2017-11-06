@@ -1,1 +1,2 @@
 C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\azure-iot-workshop\device-management-rm-client\bin\Microsoft.NodejsTools.WebRole.dll
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\azure-iot-workshop\device-management-rm-client\obj\Debug\device-management-rm-client.njsproj.CoreCompileInputs.cache

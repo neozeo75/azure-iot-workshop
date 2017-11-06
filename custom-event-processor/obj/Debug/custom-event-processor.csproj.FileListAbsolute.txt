@@ -181,3 +181,4 @@ C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\azure-iot-worksho
 C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\azure-iot-workshop\custom-event-processor\obj\Debug\custom-event-processor.csprojResolveAssemblyReference.cache
 C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\azure-iot-workshop\custom-event-processor\obj\Debug\CustomEventProcessor.exe
 C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\azure-iot-workshop\custom-event-processor\obj\Debug\CustomEventProcessor.pdb
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\azure-iot-workshop\custom-event-processor\obj\Debug\custom-event-processor.csproj.CoreCompileInputs.cache

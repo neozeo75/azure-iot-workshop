@@ -77,6 +77,8 @@ namespace service_backend_device_management
 
             try
             {
+          
+
                 x = await registryManager.UpdateTwinAsync(DEVICE_ID, x, E_TAG);
                 Console.ForegroundColor = ConsoleColor.Yellow;
                 Console.WriteLine($"Desired Property successfully updated to {x.ToJson()}...");

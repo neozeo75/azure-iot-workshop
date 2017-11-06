@@ -95,3 +95,4 @@ C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\azure-iot-worksho
 C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\azure-iot-workshop\device-management-cs-client\obj\Debug\device-management-cs-client.exe
 C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\azure-iot-workshop\device-management-cs-client\obj\Debug\device-management-cs-client.pdb
 C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\azure-iot-workshop\device-management-cs-client\obj\Debug\device-management-cs-client.csprojResolveAssemblyReference.cache
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\azure-iot-workshop\device-management-cs-client\obj\Debug\device-management-cs-client.csproj.CoreCompileInputs.cache

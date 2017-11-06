@@ -99,3 +99,4 @@ C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\azure-iot-worksho
 C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\azure-iot-workshop\service-backend-device-management\obj\Debug\service-backend-device-management.csprojResolveAssemblyReference.cache
 C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\azure-iot-workshop\service-backend-device-management\obj\Debug\service-backend-device-management.exe
 C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\azure-iot-workshop\service-backend-device-management\obj\Debug\service-backend-device-management.pdb
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\azure-iot-workshop\service-backend-device-management\obj\Debug\service-backend-device-management.csproj.CoreCompileInputs.cache

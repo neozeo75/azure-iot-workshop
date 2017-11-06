@@ -94,3 +94,4 @@ C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\azure-iot-worksho
 C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\azure-iot-workshop\device-simulator-weather\obj\Debug\device-simulator-weather.csprojResolveAssemblyReference.cache
 C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\azure-iot-workshop\device-simulator-weather\obj\Debug\device-simulator-weather.exe
 C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\azure-iot-workshop\device-simulator-weather\obj\Debug\device-simulator-weather.pdb
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\azure-iot-workshop\device-simulator-weather\obj\Debug\device-simulator-weather.csproj.CoreCompileInputs.cache

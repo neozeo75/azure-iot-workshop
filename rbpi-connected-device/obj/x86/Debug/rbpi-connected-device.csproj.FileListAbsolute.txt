@@ -223,3 +223,4 @@ C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\azure-iot-worksho
 C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\azure-iot-workshop\rbpi-connected-device\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\azure-iot-workshop\rbpi-connected-device\obj\x86\Debug\PCLCrypto.pri.xml
 C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\azure-iot-workshop\rbpi-connected-device\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\pashim\Documents\Clouds\OneDrive - Microsoft\Projects\azure-iot-workshop\rbpi-connected-device\obj\x86\Debug\rbpi-connected-device.csproj.CoreCompileInputs.cache
